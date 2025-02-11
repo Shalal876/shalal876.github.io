@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #9cc6df;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #022b58;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            position: relative;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        /* Active Link Styling */
+        nav ul li a.active {
+            background-color: #007BFF;
+            border-radius: 5px;
+        }
+
+        /* Main Content Styling */
+        main {
+            padding: 2rem;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: rgba(2, 43, 88, 0.6); /* Cool blue background with transparency */
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #022b58;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header id="top">
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Index.html" target="_self">Home</a></li>
+            <li><a href="profession.html" target="_self">Profession</a></li>
+            <li><a href="personality.html" target="_self" class="active">Personality</a></li>
+            <li><a href="Development.html" target="_self">Development</a></li>
+            <li><a href="Reference.html" target="_self">Reference</a></li>
+            <li><a href="storyboard.html" target="_self">Storyboard</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Strongest Trait and Emotion Section -->
+        <div class="section">
+            <h2>Strongest Trait and Emotion</h2>
+            <p>My ability to think critically has always been my biggest suit as a student of computer 
+                networking and security. This quality enables me to deconstruct difficult issues into 
+                digestible chunks, which is crucial when dealing with challenging cybersecurity issues and 
+                sophisticated network settings. I can approach tasks and projects systematically because to 
+                my analytical abilities, which guarantee that I comprehend each part of the system and how it 
+                works. In addition to helping me succeed academically, this rigorous approach has won me 
+                the respect and admiration of my instructors and classmates.
+            </p></br>
+
+            <p>
+                Curiosity is one of the emotions that propels my academic success; I have an unquenchable 
+                desire to learn how things work, which feeds my passion for learning; it encourages me to 
+                learn more about subjects, do my own research, and keep up with the most recent 
+                developments in the field; it drives me to attend workshops, take part in online forums, and 
+                interact with the larger cybersecurity community; and it makes sure that I am always at the 
+                forefront of my field, armed with the newest information and abilities.
+            </p>
+        </div>
+
+        <!-- My Hero Section -->
+        <div class="section">
+            <h2>My Hero</h2>
+            <p>
+                One of the most well-known and respected names in cybersecurity is Bruce Schneier. He has 
+                made important contributions to cryptography and security engineering as a professor, author, 
+                and security scientist. Schneier is a great resource for experts and the general public alike 
+                because of his reputation for being able to clearly and concisely explain complicated security 
+                principles.
+            </p></br>
+
+            <p>
+                His well-known statement is, "Security is a process, not a product." This quotation highlights 
+                that maintaining security requires constant work and attention to detail rather than depending 
+                just on one technology or solution. 
+                Because Bruce Schneier's work exemplifies the values of creativity, commitment, and 
+                pragmatism in cybersecurity, I chose him as my hero. His methodical and all-encompassing 
+                approach to security emphasizes practical applications and the role of people in security 
+                procedures. Schneier's efforts have influenced contemporary cybersecurity tactics, and his 
+                observations still have an impact on the sector today. 
+
+            </p></br>
+            <a href="https://www.schneier.com/" target="_blank">Read More about Schneier</a>
+        </div>
+
+        <!-- Personality Tool Section -->
+        <div class="section">
+            <h2>Personality Tool Results</h2></br></br>
+
+            <img src="../Assets/ptool.png" alt="Centered Image" width="85%" class="center-image"></br></br>
+
+            <img src="../Assets/ptool1.png" alt="Centered Image" width="30%"  class="center-image"></br></br>
+        
+
+            <p>
+                I disagree with those who think that tests such as these can provide insights. In my 
+                situation, I don't believe the test accurately reflected who I am. It's critical to 
+                understand that no test can adequately capture the subtleties and complexity of a 
+                person. The results can be affected by a variety of factors, including context, emotion, 
+                and even the particular questions posed. As a result, even while these assessments 
+                could offer a broad picture, they frequently fall short in terms of precision and depth, 
+                making it difficult to accurately represent a person's identity and abilities.
+
+            </p>
+        </div></br>
+        <a href="#top" class="to-top">Back to Top</a>
+    </main>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /*Basic Reset*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #9cc6df;
+            color: #333;
+        }
+
+        /* Header style */
+        header {
+            background-color: #022b58;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Navigation Bar Style */
+        nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            position: relative;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        /* Active Link Style */
+        nav ul li a.active {
+            background-color: #007BFF;
+            border-radius: 5px;
+        }
+
+        /* Main Content Style */
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .center-image {
+            width: 40%;
+            height: 40%;
+            max-width: 40%;
+            max-height: 40%;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+
+        .large-text {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #022b58;
+            margin-bottom: 1rem;
+        }
+
+        .small-text {
+            font-size: 1rem;
+            color: #555;
+            margin-top: 0.5rem;
+        }
+
+        .about-me {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: rgba(2, 43, 88, 0.6); /* Cool blue background with transparency */
+            color: white;
+            border-radius: 10px;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        .about-me textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 1rem;
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background for textarea */
+            color: #022b58;
+            border-radius: 5px;
+            border: none;
+            font-size: 1rem;
+            resize: none;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <header id="top">
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Index.html" target="_self" class="active">Home</a></li>
+            <li><a href="profession.html" target="_self">Profession</a></li>
+            <li><a href="personality.html" target="_self">Personality</a></li>
+            <li><a href="Development.html" target="_self">Development</a></li>
+            <li><a href="Reference.html" target="_self">Reference</a></li>
+            <li><a href="storyboard.html" target="_self">Storyboard</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Text Above Image -->
+        <div class="large-text">Hello, my name is Mahershalalhashbaz Wright</div>
+
+        <!-- Centered Image -->
+        <a href="mailto:wrightmahershalalhashbaz@gmail.com?subject=2205871">
+            <img src="../Assets/shal.jpg" alt="Centered Image" class="center-image">
+        </a>
+
+        <!-- Text Below Image -->
+        <div class="small-text">Click this image to contact me via email</div>
+
+        <!-- About Me Section with Transparent Text Box -->
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>I'm committed to making sure computer networks and systems are dependable and safe as a 
+                computer networking and security specialist. To protect sensitive data from potential attacks,
+                my employment entails developing, deploying, and overseeing secure network architectures.
+                Having a thorough understanding of network architecture and cybersecurity standards, I work 
+                hard to deliver reliable solutions that boost operational effectiveness and defend against 
+                cyberattacks. I want to advance professionally so that I may contribute new ideas and 
+                commitment, learn from the company, and make a significant contribution to its goals. In 
+                addition to my career endeavours, I love to play music on a variety of instruments, 
+                specifically in the church. I also keep learning more about the stock market and making smart  
+                investments because I'm quite interested in it. I take comfort in reading in my free time, 
+                delving into a variety of genres that stimulate my curiosity and intellectual development.
+            </p>
+
+        </div>
+
+        <a href="#top" class="to-top">Back to Top</a>
+
+    </main>
+</body>
+</html>

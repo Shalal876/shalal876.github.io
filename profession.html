@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #9cc6df;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #022b58;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            position: relative;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        /* Active Link Styling */
+        nav ul li a.active {
+            background-color: #007BFF;
+            border-radius: 5px;
+        }
+
+        /* Main Content Styling */
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .resume {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .resume h2 {
+            color: #022b58;
+            margin-bottom: 1rem;
+        }
+
+        .resume h3 {
+            color: #007BFF;
+            margin-bottom: 0.5rem;
+        }
+
+        .resume p {
+            margin-bottom: 1rem;
+        }
+
+        .quote {
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid #007BFF;
+            padding-left: 1rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header id="top">
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Index.html" target="_self">Home</a></li>
+            <li><a href="profession.html" target="_self" class="active">Profession</a></li>
+            <li><a href="personality.html" target="_self">Personality</a></li>
+            <li><a href="Development.html" target="_self">Development</a></li>
+            <li><a href="Reference.html" target="_self">Reference</a></li>
+            <li><a href="storyboard.html" target="_self">Storyboard</a></li>
+        </ul>
+    </nav>
+
+    <main>
+         <!-- Mission Statement  -->
+         <div class="mission">
+            <h2>Mission Statement</h2>
+            <p>My goal is to provide outstanding computer networking and security services that protect 
+               private data and guarantee the reliability of digital infrastructures. I want to deliver dependable 
+               and efficient security solutions by remaining on the cutting edge of industry trends and 
+               consistently improving my abilities. Through proactive actions, thorough evaluations, and strong 
+               defensive tactics, I pledge to build confidence and trust with clients and stakeholders.
+            </p>
+        </div></br></br>
+
+        <!-- Vision Statement  -->
+        <div class="vision">
+            <h2>Vision Statement</h2>
+            <p>To be a world expert in computer networking and security, offering cutting-edge solutions that 
+                safeguard and enable multinational corporations. Working for a well-known cybersecurity firm 
+                and using my experience to make the internet a safer place while also advancing cutting-edge 
+                cybersecurity technologies is my dream.
+            </p>
+        </div></br></br>
+
+        <div class="resume">
+            <h2>My Resume</h2>
+
+            <h3 align="center">Quote</h3>
+            <p class="quote" align="center">"A journey to Thousand miles begins with one step"</p>
+
+            <h3>Education</h3></br>
+            <p><b>Oberlin High School</b></p>
+            <p><u><i>CAPE</i></u></p>
+            <p> Communication Studies,  Accounting Unit 2, Information Technology Unit 1, Management of Business</p></br>
+
+            <p><u><i>CSEC</i></u></p>
+            <p>English Language, Information Technology, Mathematics, Principle of Business, Physical Education, Principles of Accounts, Music </p></br>
+
+            <p><b>University of Technology, Ja</b></p>
+            <p>Bachelor of Science in Computer Networking and Security, Cyber Security Major </p></br>
+
+            <p><b>Certifications</b></p>
+
+            <p>CompTIA Network+ </p></br>
+            <p>Cisco Certified Network Associate (CCNA) </p></br>
+            <p>Cisco Certified Network Professional (CCNP): Collaboration</p></br>   
+            
+                    
+            <h3>Work Experience</h3></br>
+            <p>Junior IT Technician Palace Amusement Co.Ltd - 1 year</p></br>
+
+            <p>Junior IT Secuirty Specialist Digicel - 1.5 year</p></br>
+
+            <p>Network Emgineer IBEX Global - March, 2023 to  Current</p></br>
+
+            
+            <h3>Skills</h3>
+
+            <p>
+                <ul type="circle">
+                <li>Network Security Control</li>
+                <li>Coding: Python, PowerShell, SQL, Bash, and Java</li>
+                <li>Intrusion detection system</li>
+                <li>Critical thinking</li>
+                <li>Risk analysis</li>
+                <li>Attention to Detail</li>
+                <li>Communication Skills</li>
+                <li>Willingness to learn</li>
+                <li>Teamwork</li>
+                <li>Problem solving skills</li>
+            </ul>
+            </p>
+
+        </div>
+
+        
+
+        <a href="#top" class="to-top">Back to Top</a>
+    </main>
+</body>
+</html>
